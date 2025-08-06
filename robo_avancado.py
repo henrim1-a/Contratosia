@@ -8,7 +8,8 @@ from datetime import datetime
 
 def carregar_links():
     try:
-        with open("links.txt", "r") as f:
+        with open(" https://contratos-ia.my.canva.site/pagina-de-vendas-para-contratos-ia
+https://google.com" "r") as f:
             return [linha.strip() for linha in f.readlines() if linha.strip()]
     except FileNotFoundError:
         print("❌ Arquivo 'links.txt' não encontrado.")
@@ -16,7 +17,8 @@ def carregar_links():
 
 def carregar_proxies():
     try:
-        with open("proxies.txt", "r") as f:
+        with open("http://201.91.82.155:3128
+http://191.243.218.217:8080", "r") as f:
             return [linha.strip() for linha in f.readlines() if linha.strip()]
     except FileNotFoundError:
         return []
@@ -73,5 +75,4 @@ if __name__ == "__main__":
     else:
         print("Saindo...")
 
-http://201.91.82.155:3128
-http://191.243.218.217:8080
+
