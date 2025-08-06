@@ -1,4 +1,6 @@
 
+
+
 import requests
 import time
 import random
@@ -70,3 +72,6 @@ if __name__ == "__main__":
             enviar_visitas(links, proxies)
     else:
         print("Saindo...")
+
+http://201.91.82.155:3128
+http://191.243.218.217:8080
