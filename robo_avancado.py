@@ -8,8 +8,7 @@ from datetime import datetime
 
 def carregar_links():
     try:
-        with open("https://contratos-ia.my.canva.site/pagina-de-vendas-para-contratos-ia
-https://google.com" "r") as f:
+        with open("https://contratos-ia.my.canva.site/pagina-de-vendas-para-contratos-ia/" "r") as f:
             return [linha.strip() for linha in f.readlines() if linha.strip()]
     except FileNotFoundError:
         print("❌ Arquivo 'links.txt' não encontrado.")
